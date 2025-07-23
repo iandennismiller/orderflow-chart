@@ -76,4 +76,4 @@ orderflowchart = OrderFlowChart.from_preprocessed_data(preprocessed_data)
 orderflowchart.plot()
 ```
 
-This approach is particularly useful when dealing with datasets that have been previously cleaned, aggregated, or transformed, allowing for a streamlined visualization process. Ensure your preprocessed data adheres to the expected format as described in the provided Pydantic model documentation. For detailed information on the data structure and the Pydantic model used for preprocessing, please refer to the [Data Model Documentation](data/README.md).
+This approach is particularly useful when dealing with datasets that have been previously cleaned, aggregated, or transformed, allowing for a streamlined visualization process. Ensure your preprocessed data adheres to the expected format as described in the provided Pydantic model documentation. For detailed information on the data structure and the Pydantic model used for preprocessing, please refer to the [Data Model Documentation](docs/data-schema.md).
