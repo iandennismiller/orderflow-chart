@@ -1,5 +1,6 @@
-from OrderFlow import OrderFlowChart
 import pandas as pd
+
+from orderflow_chart import OrderFlowChart
 
 OHLC_CSV = 'data/range_ohlc.csv'
 ORDERFLOW_CSV = 'data/range_candles.csv'

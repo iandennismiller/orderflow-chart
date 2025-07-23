@@ -3,7 +3,16 @@ import numpy as np
 
 
 class OrderFlowData():
+    """
+    OrderFlowData class for processing order flow data and OHLC data.
+    """
     def process_data(self):
+        """
+        This method will process the orderflow data and ohlc data.
+        It will create a unique identifier for each candle if not provided,
+        create a sequence column, calculate the imbalance, and annotate the data.
+        It will also create high-low and open-close sequences for green and red candles.
+        """
         if self.identifier_col is None:
             self.identifier_col = 'identifier'
             self.create_identifier()

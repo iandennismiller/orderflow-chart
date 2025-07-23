@@ -4,6 +4,14 @@ from plotly.graph_objs import *
 
 
 class OrderFlowPlot():
+    """
+    OrderFlowPlot class for plotting order flow data with OHLC data.
+    It provides methods to plot the order flow chart using processed data.
+    It creates a figure with two subplots: one for the order flow data and one for the OHLC data.
+    It adds traces for the order flow data, OHLC data, and the imbalance.
+    The order flow data is plotted as a heatmap, the OHLC data is plotted as candlesticks,
+    and the imbalance is plotted as a line chart.
+    """
     def plot(self, return_figure=False):
         """
         This method will plot the order flow chart using the processed data.
