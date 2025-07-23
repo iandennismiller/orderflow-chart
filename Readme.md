@@ -9,7 +9,7 @@ The heart of the project is the `OrderFlowChart` class constructor. It's designe
 ### Constructor
 
 ```python
-from OrderFlow import OrderFlowChart
+from orderflow_chart import OrderFlowChart
 import pandas as pd
 
 # Read orderflow data from CSV
@@ -61,7 +61,7 @@ If you have your data preprocessed and stored in a JSON format, you can use the 
 ### Using Preprocessed Data
 
 ```python
-from OrderFlow import OrderFlowChart
+from orderflow_chart import OrderFlowChart
 import pandas as pd
 import json
 

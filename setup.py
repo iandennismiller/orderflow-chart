@@ -12,6 +12,7 @@ setup(
         'pandas',
         'plotly',
         'numpy',
+        'nbformat',
     ],
     license='Apache License 2.0',
     zip_safe=False,

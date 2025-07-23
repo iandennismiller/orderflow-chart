@@ -30,4 +30,5 @@ identifier_col='identifier'
 )
 
 # Plot the orderflow chart
-orderflowchart.plot()
+fig = orderflowchart.plot(return_figure=True)
+fig.write_html('orderflow_chart.html')
